@@ -1,0 +1,87 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(46, 27, 3);
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 5vw 0 3vw;
+
+}
+.but button{
+    
+    padding: 1vw;
+}
+
+.cards  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin: 1vw;
+
+flex-wrap: wrap;
+
+}
+.cards .text{
+font-size: 1.2vw;
+}
+
+.ar{
+    display: none;
+}
+
+.cards .one{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: #d3deda;
+}
+.cards .two{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: #d3deda;
+}
+.cards .three{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: #d3deda;
+}
+.cards .four{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: #d3deda;
+}
+.cards img{
+    width: 20vw;
+    height: 135px;
+}
